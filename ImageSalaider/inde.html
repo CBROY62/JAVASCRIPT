@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testimonial Slider</title>
+    <style>
+      body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+      }
+      .container {
+        height: 300px;
+        width: 500px;
+        background-color: brown;
+        position: relative;
+        font-size: 20px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px rgb(26, 24, 24);
+        padding: 20px;
+        text-align: center;
+      }
+      img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        top: -50px;
+        transform: translateX(-50%);
+      }
+      .text {
+        margin-top: 70px;
+        padding: 10px;
+        color: white;
+      }
+      .username {
+        margin-top: 10px;
+        font-weight: bold;
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img class="img" src="" alt="User Image" />
+      <p class="text">Loading...</p>
+      <h4 class="username">Loading...</h4>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
